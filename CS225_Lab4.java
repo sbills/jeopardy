@@ -46,9 +46,7 @@ public class CS225_Lab4
 		System.out.println((prizes));
 		System.out.println();
 		}
-		// TODO 1: Print the prizes in the prize ArrayList. All values should be on
-		// a single line (put a few spaces after each prize) and add a new line
-		// at the end (simple for loop)
+		
 	}
 	
 	/////////////////////////////////////////////////////////////////////
@@ -76,9 +74,7 @@ public class CS225_Lab4
 	private void chooseDoor(int door)
 	{
 		offerHistory.add(getBankerOffer());
-			
-		// TODO 7: Add the current bank offer (remember, we have a method
-		// for this) to the our offerHistory 
+	
 		
 		if (door == -1)
 		{
@@ -98,8 +94,7 @@ public class CS225_Lab4
 			remainingPrizesBoard.get(door);
 			System.out.println("You chose door " + door + " with prize " + remainingPrizesBoard.get(door));
 			remainingPrizesBoard.remove(door);
-			// TODO 4: Obtain the prize behind the proper door and remove the prize from the board
-			// Print out which door the user selected and what prize was behind it (this prize is now gone)
+			
 		}
 		
 		// If only one prize remaining, game is over!!!
@@ -155,8 +150,6 @@ public class CS225_Lab4
 		}
 		
 	}
-	
-
 	
 	
 	/////////////////////////////////////////////////////////////////////
